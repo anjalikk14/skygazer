@@ -6,8 +6,6 @@ body, html {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	font-family: "Montserrat", "sans-serif";
-	font-weight:500;
 }
 
 canvas {
@@ -16,11 +14,9 @@ canvas {
 	left:0
 }
 
-#Title {
+#Container {
 	font-family: "Montserrat", "sans-serif";
-	font-weight:500;
-	color: white;
-	height: 70%;
+	height: 100%;
 	width: 100%;
 	position: relative;
 	z-index: 1;
@@ -29,32 +25,50 @@ canvas {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	font-size: 100px;
 }
 
-#Form {
-	margin-top: 7%;
-	display: flex;
-	flex-direction: column;
-	text-align: center;
-}
+	#Title {
+		font-weight:500;
+		color: white;
+		font-size: 100px;
+	}
 
-#SubmitButton {
-	font-size: 30px;
-	height: 50px;
-	width: 200px;
-	background: none;
-	margin: auto;
-	margin-top: 7%;
-	color: #fbfbfb;
-	border-color: grey;
-	cursor: pointer;
-}
+	#SignUp {
+		height: 40%;
+		width: 25%;
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		justify-content: center;
+	}
 
-.clean-input {
-	background: none;
-	border-style: none;
-	border-bottom: solid;
-	font-size:30px;
-	color: #fbfbfb;
-}
+		#Status {
+			display: none;
+			font-size: 30px;
+		}
+
+		#Form {
+			display: flex;
+			flex-direction: column;
+			text-align: center;
+		}
+
+			#SubmitButton {
+				font-size: 30px;
+				height: 50px;
+				width: 200px;
+				background: none;
+				margin: auto;
+				margin-top: 7%;
+				color: #fbfbfb;
+				border-color: grey;
+				cursor: pointer;
+			}
+
+			.clean-input {
+				background: none;
+				border-style: none;
+				border-bottom: solid;
+				font-size:30px;
+				color: #fbfbfb;
+			}
