@@ -1,2 +1,2 @@
 # skygazer
-Landing page for Skygazer
+Landing page for Skygazer.
